@@ -142,40 +142,57 @@ Add two greater-than signs in front of the paragraph you want to nest.
 ## Lists
 
 ### Numbered List
+Add a figure followed by period, then a space and your content for each line item. The figure of the first item defines the sequence, figures of the following lines won't be considered.
+
+1. numbered list item
+2. numbered list item
+3. numbered list item
 
 ```Markdown
-1. Ordered list item
-2. Ordered list item
-3. Ordered list item
+1. numbered list item
+2. numbered list item
+3. numbered list item
 ```
 
-### Bulleted lists
+### Bulleted Lists
+Add an asterisk, dash or plus sign followed by period, then a space and your content for each line item.
+
+* bulleted list item
+* bulleted list item
+* bulleted list item
 
 ```Markdown
-* Bulleted list item
-* Bulleted list item
-* Bulleted list item
+* bulleted list item
+* bulleted list item
+* bulleted list item
 ```
-Also works with `+` and `-` instead of `*`.
 
-### Task lists
+### Task Lists
+Add a dash followed by a space, then brackets ==with a space in between==, then another space and your content for each task.
+
+- [ ] Unfinished task list item
+- [x] Finished task list item
 
 ```Markdown
 - [ ] Unfinished task list item
 - [x] Finished task list item
 ```
 
-### Nesting lists
+### Nesting Lists
+Add two spaces to indent a list item and another two spaces for every next level. You can use up to ten levels. Mixing numbered and bulleted lists is possible.
+
+* first level
+  * second level
 
 ```Markdown
-* First level
-    * Second level
+* first level
+  * second level
 
-1. First level
-    1. Second level
+1. first level
+  1. second level
 
-* First level unordered list item
-    1. Second level ordered list item
+* first level unordered list item
+  1. second level ordered list item
 ```
 
 ## Links
