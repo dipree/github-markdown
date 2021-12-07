@@ -263,5 +263,3 @@ Use three or more asterisks, dashes, or underscores alone on a line.
 ***
 ___
 ```
-
-
