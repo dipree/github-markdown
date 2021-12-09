@@ -48,21 +48,6 @@ Use double tildes before and after text to ~~strikethrough~~.
 ~~strikethrough~~
 ```
 
-### Highlight
-Use double equal signs before and after text to ==highlight==.
-
-```Markdown
-==highlight==
-```
-
-### Good/Bad Differentiator
-Use double plus or double minus signs to indicate something as ++positive++ or --negative--.
-
-```Markdown
-++positive++
---negative--
-```
-
 ## Paragraphs
 Use a blank line to separate one or more lines of text.
 
