@@ -265,3 +265,17 @@ Use three or more asterisks, dashes, or underscores alone on a line.
 ***
 ___
 ```
+
+## Rendering GitHub Links
+There are a some type of urls that render special.
+
+### Issues
+Referencing the url to an issue in the same or a different repository.
+
+https://github.com/dipree/github-markdown/issues/1
+https://github.com/dipree/dipree/issues/1
+
+```Markdown
+https://github.com/dipree/github-markdown/issues/1
+https://github.com/dipree/dipree/issues/1
+```
