@@ -271,7 +271,7 @@ ___
 ```
 
 ## Special URL Rendering
-There are a some type of urls that render special.
+There are a some GitHub urls that render special in Markdown.
 
 ### Issues
 Reference the url of an issue in the same or a different repository.
