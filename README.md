@@ -1,7 +1,6 @@
 # GitHub Markdown
 Overview of the Markdown rendering on GitHub.
 
-
 ## Headings
 
 You can use up to up to six levels by writing `#` at the start of a line. The number of hashtags defines the hierarchy of the heading. The first two headings render with a horizontal separator.
@@ -58,11 +57,16 @@ anoter paragraph
 ```
 
 ## Line Breaks
-Use a backslash or two or more spaces at the and of a line, then type return to define a line break.
+Use a backslash, two or more spaces or a `<br>` at the and of a line, then type return to define a line break.
+
+Note, that this works inconsistently in Markdown documents versus comments. In a comment, a soft line break (return) will render a line break.
+
+first line\
+second line
 
 ```Markdown
-test line\
-test line
+first line\
+second line
 ```
 
 ## Code
@@ -264,4 +268,36 @@ Use three or more asterisks, dashes, or underscores alone on a line.
 ---
 ***
 ___
+```
+
+## Special URL Rendering
+There are a some GitHub urls that render special in Markdown.
+
+### Issues
+Reference the url of an issue in the same or a different repository.
+
+https://github.com/dipree/github-markdown/issues/1  
+https://github.com/dipree/dipree/issues/1
+
+```Markdown
+https://github.com/dipree/github-markdown/issues/1
+https://github.com/dipree/dipree/issues/1
+```
+
+### Pull Requests
+Reference the url of a pull request in the same or a different repository.
+
+https://github.com/dipree/github-markdown/pull/6
+
+```Markdown
+https://github.com/dipree/github-markdown/pull/6
+```
+
+### Labels
+Reference the url of a label in the same repository and it will render as a label.
+
+https://github.com/dipree/github-markdown/labels/documentation
+
+```Markdown
+https://github.com/dipree/github-markdown/labels/documentation
 ```
