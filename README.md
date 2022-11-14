@@ -1,5 +1,5 @@
 # GitHub Markdown
-Overview of the Markdown rendering on GitHub.
+Overview of the Markdown rendering in GitHub. This document does not cover HTML tags on the allowlist.
 
 ## Headings
 
