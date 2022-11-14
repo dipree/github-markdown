@@ -302,7 +302,7 @@ https://github.com/dipree/github-markdown/labels/documentation
 ### Colors
 Specifying colors as HEX, RGBA or HSL in inline code blocks renders a little dot of the given color within the code block.
 
-> **Note**
+> **Note**  
 > Only works in Markdown [comments](https://github.com/dipree/github-markdown/issues/12), not in files.
 
 ```
