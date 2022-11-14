@@ -265,7 +265,7 @@ ___
 ```
 
 ## Special Rendering
-There is some special Markdown rendering on GitHub.
+There is some special Markdown rendering in GitHub.
 
 ### URLs
 Referencing some specific url formats renders special.
