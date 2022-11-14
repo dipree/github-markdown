@@ -1,5 +1,5 @@
 # GitHub Markdown
-Overview of the Markdown rendering on GitHub.
+Overview of the Markdown rendering in GitHub. This document does not cover HTML tags on the allowlist.
 
 ## Headings
 
@@ -57,9 +57,10 @@ anoter paragraph
 ```
 
 ## Line Breaks
-Use a backslash, two or more spaces or a `<br>` at the and of a line, then type return to define a line break.
+Use a backslash or two or more spaces at the end of a line, then type return to define a line break.
 
-Note, that this works inconsistently in Markdown documents versus comments. In a comment, a soft line break (return) will render a line break.
+> **Note**  
+> This works inconsistently in Markdown documents versus comments. In a comment, a soft line break (return) will render a line break.
 
 first line\
 second line
@@ -207,13 +208,6 @@ Add a link to an image by enclosing the Markdown for the image in brackets, and 
 [![alt text](http://github.com/image.jpg)](http://github.com/image.jpg)
 ```
 
-### Specifying Theme Context
-Add the dark color mode image as a fragment to the url.
-
-```Markdown
-![alt text](http://github.com/image.jpg#dark-color-mode=http://github.com/image.jpg)
-```
-
 ## Footnotes
 
 Add a footnote in square brackets preceded by a caret and an identifier[^1]. The footnote content can be added by using the before mentioned construct followed by colon and then the content.
@@ -270,11 +264,14 @@ Use three or more asterisks, dashes, or underscores alone on a line.
 ___
 ```
 
-## Special URL Rendering
-There are a some GitHub urls that render special in Markdown.
+## Special Rendering
+There is some special Markdown rendering in GitHub.
 
-### Issues
-Reference the url of an issue in the same or a different repository.
+### URLs
+Referencing some specific url formats renders special.
+
+#### Issues
+Issues from the same or a different repository.
 
 https://github.com/dipree/github-markdown/issues/1  
 https://github.com/dipree/dipree/issues/1
@@ -284,8 +281,8 @@ https://github.com/dipree/github-markdown/issues/1
 https://github.com/dipree/dipree/issues/1
 ```
 
-### Pull Requests
-Reference the url of a pull request in the same or a different repository.
+#### Pull Requests
+Pull requests from the same or a different repository.
 
 https://github.com/dipree/github-markdown/pull/6
 
@@ -293,11 +290,35 @@ https://github.com/dipree/github-markdown/pull/6
 https://github.com/dipree/github-markdown/pull/6
 ```
 
-### Labels
-Reference the url of a label in the same repository and it will render as a label.
+#### Labels
+From the same repository will render as a label.
 
 https://github.com/dipree/github-markdown/labels/documentation
 
 ```Markdown
 https://github.com/dipree/github-markdown/labels/documentation
+```
+
+### Colors
+Specifying colors as HEX, RGBA or HSL in inline code blocks renders a little dot of the given color within the code block.
+
+> **Note**
+> Only works in Markdown [comments](https://github.com/dipree/github-markdown/issues/12), not in files.
+
+```
+`#00ff00`, `rgba(0, 255, 0, 1)`, `hsl(120, 100%, 50%)`
+```
+
+### Admonition (Beta)
+There are two options to highlight a "Note" or "Warning".
+
+> **Warning**  
+> This is a beta feature.
+
+```
+> **Note**  
+> This is a note
+
+> **Warning**  
+> This is a warning
 ```
