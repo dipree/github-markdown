@@ -57,9 +57,10 @@ anoter paragraph
 ```
 
 ## Line Breaks
-Use a backslash, two or more spaces or a `<br>` at the and of a line, then type return to define a line break.
+Use a backslash or two or more spaces at the end of a line, then type return to define a line break.
 
-Note, that this works inconsistently in Markdown documents versus comments. In a comment, a soft line break (return) will render a line break.
+> **Note**  
+> This works inconsistently in Markdown documents versus comments. In a comment, a soft line break (return) will render a line break.
 
 first line\
 second line
