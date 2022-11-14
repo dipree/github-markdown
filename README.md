@@ -88,9 +88,9 @@ code
 ```
 ````
 
-````Markdown
-    code
-````
+```Markdown
+code
+```
 
 ### Syntax Highlighting
 Add syntax highlighting by specifying a language next to the backticks before a fenced code block.
