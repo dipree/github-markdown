@@ -265,38 +265,32 @@ ___
 ```
 
 ## Special Rendering
-There is some special Markdown rendering in GitHub.
+GitHub Markdown has special rendering for certain things.
 
 ### URLs
-Referencing some specific url formats renders special.
+Referencing specific url formats renders special.
 
-#### Issues
-Issues from the same or a different repository.
+#### Issues & Pull Requests
+From the same or a different repository.
+
+> **Note**  
+> Issues and PRs referenced in lists render with the format `icon title id` in [comments](https://github.com/dipree/github-markdown/issues/13)
 
 https://github.com/dipree/github-markdown/issues/1  
 https://github.com/dipree/dipree/issues/1
 
 ```Markdown
-https://github.com/dipree/github-markdown/issues/1
+https://github.com/dipree/github-markdown/issues/1  
 https://github.com/dipree/dipree/issues/1
 ```
 
-#### Pull Requests
-Pull requests from the same or a different repository.
-
-https://github.com/dipree/github-markdown/pull/6
-
-```Markdown
-https://github.com/dipree/github-markdown/pull/6
-```
-
 #### Labels
-From the same repository will render as a label.
+From the same repository.
 
-https://github.com/dipree/github-markdown/labels/documentation
+https://github.com/dipree/github-markdown/labels/demo
 
 ```Markdown
-https://github.com/dipree/github-markdown/labels/documentation
+https://github.com/dipree/github-markdown/labels/demo
 ```
 
 ### Colors
