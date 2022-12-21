@@ -293,16 +293,6 @@ https://github.com/dipree/github-markdown/labels/demo
 https://github.com/dipree/github-markdown/labels/demo
 ```
 
-### Colors
-Specifying colors as HEX, RGBA or HSL in inline code blocks renders a little dot of the given color within the code block.
-
-> **Note**  
-> Only works in Markdown [comments](https://github.com/dipree/github-markdown/issues/12), not in files.
-
-```
-`#00ff00`, `rgba(0, 255, 0, 1)`, `hsl(120, 100%, 50%)`
-```
-
 ### Admonition (Beta)
 There are two options to highlight a "Note" or "Warning".
 
@@ -316,3 +306,39 @@ There are two options to highlight a "Note" or "Warning".
 > **Warning**  
 > This is a warning
 ```
+### Colors
+Specifying colors as HEX, RGBA or HSL in inline code blocks renders a little dot of the given color within the code block.
+
+> **Note**  
+> Only works in Markdown [comments](https://github.com/dipree/github-markdown/issues/12), not in files.
+
+```
+`#00ff00`, `rgba(0, 255, 0, 1)`, `hsl(120, 100%, 50%)`
+```
+
+### Mermaid Diagrams
+Code blocks with the syntax highlighting set to `mermaid` renders dynamical diagrams using the [Mermaid syntax](https://mermaid.js.org/syntax/classDiagram.html).
+
+```mermaid
+stateDiagram
+    direction LR
+    Input --> Blackbox
+    Blackbox --> Output
+    state Blackbox {
+      direction LR
+      🪄 
+    }
+```
+
+````
+```mermaid
+stateDiagram
+    direction LR
+    Input --> Blackbox
+    Blackbox --> Output
+    state Blackbox {
+      direction LR
+      🪄 
+    }
+```
+````
