@@ -60,7 +60,7 @@ anoter paragraph
 Use a backslash or two or more spaces at the end of a line, then type return to define a line break.
 
 > **Note**  
-> This works inconsistently in Markdown documents versus comments. In a comment, a soft line break (return) will render a line break.
+> This works inconsistently in Markdown documents versus comments. In a comment, a soft line break (return) does render a line break.
 
 first line\
 second line
@@ -158,7 +158,7 @@ Add an asterisk, dash or plus sign followed by period, then a space and your con
 ```
 
 ### Task Lists
-Add a dash followed by a space, then brackets ==with a space in between==, then another space and your content for each task.
+Add a dash followed by a space, then brackets **with a space in between**, then another space and your content for each task.
 
 - [ ] Unfinished task list item
 - [x] Finished task list item
@@ -193,7 +193,10 @@ Add the text in brackets, then add the path or URL in parentheses.
 ```
 
 ## Images
-Add an exclamation mark, followed by alt text in brackets, and the path or URL to the image asset in parentheses. GitHub automatically adds a link to image leading to the image url.
+Add an exclamation mark, followed by alt text in brackets, and the path or URL to the image asset in parentheses.
+
+> **Note**  
+> The output automatically wraps the image in a link leading to the image url if no link is specified.
 
 ```Markdown
 ![alt text](http://github.com/image.jpg)
