@@ -297,17 +297,20 @@ https://github.com/dipree/github-markdown/labels/demo
 ```
 
 ### Admonition (Beta)
-There are two options to highlight a "Note" or "Warning".
+There are three options to highlight a "Note" or "Warning".
 
 > **Warning**  
 > This is a beta feature.
 
 ```
-> **Note**  
+> [!NOTE] 
 > This is a note
 
-> **Warning**  
+> [!WARNING]
 > This is a warning
+
+> [!IMPORTANT] 
+> This is an important message
 ```
 ### Colors
 Specifying colors as HEX, RGBA or HSL in inline code blocks renders a little dot of the given color within the code block.
