@@ -297,7 +297,7 @@ https://github.com/dipree/github-markdown/labels/demo
 ```
 
 ### Admonition (Beta)
-There are three options to highlight a "Note" or "Warning".
+There are three options to highlight a "Note", "Important callout", or "Warning".
 
 > **Warning**  
 > This is a beta feature.
@@ -306,11 +306,11 @@ There are three options to highlight a "Note" or "Warning".
 > [!NOTE] 
 > This is a note
 
-> [!WARNING]
-> This is a warning
-
 > [!IMPORTANT] 
 > This is an important message
+
+> [!WARNING]
+> This is a warning
 ```
 ### Colors
 Specifying colors as HEX, RGBA or HSL in inline code blocks renders a little dot of the given color within the code block.
