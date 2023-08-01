@@ -296,22 +296,30 @@ https://github.com/dipree/github-markdown/labels/demo
 https://github.com/dipree/github-markdown/labels/demo
 ```
 
-### Admonition (Beta)
-There are three options to highlight a "Note", "Important callout", or "Warning".
+### Alerts
 
-> **Warning**  
-> This is a beta feature.
+Alerts emphasize critical information. They are displayed with distinctive colors and icons to indicate the importance of the content.
 
-```
-> [!NOTE] 
-> This is a note
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
 
-> [!IMPORTANT] 
-> This is an important message
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
 
 > [!WARNING]
-> This is a warning
+> Critical content demanding immediate user attention due to potential risks.
+
+```markdown
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
 ```
+
 ### Colors
 Specifying colors as HEX, RGBA or HSL in inline code blocks renders a little dot of the given color within the code block.
 
