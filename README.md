@@ -59,7 +59,7 @@ anoter paragraph
 ## Line Breaks
 Use a backslash or two or more spaces at the end of a line, then type return to define a line break.
 
-> **Note**  
+> [!NOTE]  
 > This works inconsistently in Markdown documents versus comments. In a comment, a soft line break (return) does render a line break.
 
 first line\
@@ -195,7 +195,7 @@ Add the text in brackets, then add the path or URL in parentheses.
 ## Images
 Add an exclamation mark, followed by alt text in brackets, and the path or URL to the image asset in parentheses.
 
-> **Note**  
+> [!NOTE]  
 > The output automatically wraps the image in a link leading to the image url if no link is specified.
 
 ```Markdown
@@ -276,7 +276,7 @@ Referencing specific url formats renders special.
 #### Issues & Pull Requests
 From the same or a different repository.
 
-> **Note**  
+> [!NOTE]  
 > Issues and PRs referenced in lists render with the format `icon title id` in [comments](https://github.com/dipree/github-markdown/issues/13)
 
 https://github.com/dipree/github-markdown/issues/1  
@@ -300,30 +300,42 @@ https://github.com/dipree/github-markdown/labels/demo
 
 Alerts emphasize critical information. They are displayed with distinctive colors and icons to indicate the importance of the content.
 
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
-
-> [!IMPORTANT]
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
-
-```markdown
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
 
 > [!IMPORTANT]  
 > Crucial information necessary for users to succeed.
 
 > [!WARNING]  
 > Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
+```markdown
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
 ```
 
 ### Colors
 Specifying colors as HEX, RGBA or HSL in inline code blocks renders a little dot of the given color within the code block.
 
-> **Note**  
+> [!NOTE]  
 > Only works in Markdown [comments](https://github.com/dipree/github-markdown/issues/12), not in files.
 
 ```
